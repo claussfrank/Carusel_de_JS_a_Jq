@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es"> <!--para  lo que  busca en español-->
+<head>
+    <meta charset="UTF-8">
+    <title>Carousel con JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+    
+</head>
+<body>
+   <div id="c-slider"class="carousel container">
+       <div class="carousel "> 
+        
+              <a href="#" id="btn-prev" class="previous">&#60;</a>
+               <div data-slide="0" class="carousel-content active">
+                   <img src="assets/img/batman.png" alt="Imagen 1">
+               </div>
+               <div data-slide="1" class="carousel-content">
+                   <img src="assets/img/heroes.png" alt="Imagen 2">
+               </div>
+               <div data-slide="2" class="carousel-content">
+                   <img src="assets/img/increible.png" alt="Imagen 3">
+               </div>
+               <div data-slide="3" class="carousel-content">
+                   <img src="assets/img/star-wars.png" alt="Imagen 4">
+               </div>
+               <a href="#" id="btn-next" class="next">&#62;</a>
+            
+       </div>
+   </div>
+    <div class="controls container">
+       <div class="botones">
+            <button type="button" data-target="0" class=" col-md-12 control"></button>
+            <button type="button" data-target="1" class=" col-md-12 control"></button>
+            <button type="button" data-target="2" class=" col-md-12 control"></button>
+            <button type="button" data-target="3" class=" col-md-12 control"></button>
+        </div>
+    </div>
+   
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/appJQ.js"></script>
+</body>
+</html>

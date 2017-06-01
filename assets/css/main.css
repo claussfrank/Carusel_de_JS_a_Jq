@@ -1,0 +1,62 @@
+*{
+     margin-top: 1%;
+}
+.carousel-content {
+
+	display: none;
+
+}
+
+
+
+.carousel-content.active {
+
+	display: block;
+
+}
+#c-slider{
+    margin:auto;
+    width: 85%;
+    max-width: 700px;
+    position: relative; 
+   
+    box-shadow: 0 0 0 10px #fff,
+                0 15px 50px;
+}
+#btn-prev, #btn-next{
+    
+    background: rgba(255,255,255,0.5);
+    position: absolute;
+    top:30%;
+    transform: translateY(-50%);
+    width: 50px;
+    line-height: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+#btn-prev:hover , #btn-next:hover{
+   background: rgba(255,255,255,1);  
+}
+
+#btn-prev{
+    left: 5%;
+}
+#btn-next{
+    right:5%;
+}
+button{
+    left: 50%;
+    flex-direction: column;
+   
+    
+}
+.botones{
+    display: flex;
+    justify-content: center;
+     
+}
